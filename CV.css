@@ -1,0 +1,199 @@
+h1, body {
+    margin: 0;
+}
+
+h1, p {
+    color: #442020;
+    font-family: 'Calibri';
+}
+
+body {
+    background-color: rgb(253, 242, 236);
+    padding: 0;
+    padding-bottom: 100%;
+}
+
+.Header {
+    background-color: #A0F0B5;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    z-index: 2;
+}
+
+.TextBox {
+    border-radius: 5%;
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 35px;
+    max-width: 69%;
+    padding-bottom: 60vh;
+    background-color: rgba(194, 245, 250, 0.5);
+    display:inline-block
+}
+
+.SectionTitle, div > .InfoContainer > img {
+    margin-left: 30px ;
+}
+
+.SectionTitle {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    display:block;
+}
+
+.InfoContainer > div > img {
+    display: inline-block;
+}
+
+#Smartphone, #Address, #Email, #book, #game_controller, #typewriter, #Luffy, #CardGame, #Marx {
+    vertical-align: middle
+}
+
+#Smartphone{
+    width: 35px;
+    height: 35px;
+}
+
+#Address, #Email {
+    width: 40px;
+    height: 40px;
+}
+
+p {
+    font-size: 25px;
+    max-width: 70em;
+    display: inline-block;
+}
+
+.ContactInfo {
+    font-size: 20px;
+    margin-bottom: auto;
+    padding: 10px;
+}
+
+#KKSlider {
+    float: right;
+    right: 5px;
+}
+
+#KKSlider {
+    top: 15px;
+    width: 30%;
+}
+
+.InfoContainer, .EduContainer, .HobsContainer, .SkillsContainer {
+    display: inline-block;
+}
+
+.Footer {
+    position:fixed;
+    bottom: 0px;
+    max-width:100%;
+    height: auto;
+    width:auto;
+    z-index: 1;
+}
+
+img {
+    pointer-events: none;
+}
+
+#ContactInfo {
+    padding-bottom: 60px;
+}
+
+#School, #Skills {
+    float: left;
+}
+
+#School {
+    width: 30%;
+}
+
+.EduInfo, .HobsInfo, .SkillsInfo {
+    border-radius: 5%;
+    background-color: #fff7db;
+}
+
+.EduInfo {
+    display: inline-block;
+    margin-left: 4em;
+    margin-top: 1.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+#HobbiesTitle {
+    text-align: right;
+    margin-right: 46px;
+    margin-bottom: 15px;
+}
+
+.Hobbies {
+    float: right;
+    width: 28%;
+    margin-right: 15px;
+}
+
+.HobsInfo {
+    float: right;
+    text-align: right; 
+    vertical-align: middle;
+    margin-right: 45px;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 20px;
+}
+
+#game_controller {
+    width: 3em;
+    margin-left: 10px;
+}
+
+#typewriter {
+    width: 5em;
+    margin-left: 5px;
+}
+
+#Luffy {
+    width: 4.5em;
+}
+
+.HobsLeftA {
+   margin-right: 50px;
+}
+
+.HobsLeftB {
+    margin-left: 5px;
+    margin-right: 6.4em;
+}
+
+#book {
+    margin-right: 8px;
+    width: 4em;
+}
+
+#CardGame {
+    width: 4em;
+}
+
+#Marx {
+    width: 3.8em;
+}
+
+.HobsLeftC {
+    margin-right: 3em;
+}
+
+.Skills {
+    margin-left: 15px;
+    width: 45%;
+}
+
+.SkillsContainer {
+    display: inline-block;
+}
